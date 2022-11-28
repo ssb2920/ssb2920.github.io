@@ -1388,7 +1388,7 @@ html {
 }
 
 body {
-  background-image: url("images/overlay.png"), url("images/game.jpg");
+  background-image: url("images/back.jpg");
   background-repeat: repeat, no-repeat;
   background-size: auto, 100% 100%;
   background-attachment: fixed;
@@ -2293,7 +2293,7 @@ body.is-preload #wrapper {
   transform: translate3d(0, 0, 0);
   /* Set your background with this */
 
-  background: #348cb2 url("images/game.jpg") bottom left;
+  background: #348cb2 url("images/back.jpg") bottom left;
   background-repeat: repeat-x;
   height: 100%;
   left: 0;
