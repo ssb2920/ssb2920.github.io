@@ -1387,13 +1387,13 @@ html {
   box-sizing: inherit;
 }
 
-body {
+/*body {
   background-image: url("images/back.jpg");
   background-repeat: repeat, no-repeat;
   background-size: auto, 100% 100%;
   background-attachment: fixed;
   overflow-y: scroll;
-}
+}*/
 
 body.is-preload *,
 body.is-preload *:before,
@@ -2278,7 +2278,7 @@ body.is-preload #wrapper {
     margin-left: 0.5em;
   }
 }
-/*#bg {
+#bg {
   -moz-animation: bg 60s linear infinite;
   -webkit-animation: bg 60s linear infinite;
   -ms-animation: bg 60s linear infinite;
@@ -2292,15 +2292,15 @@ body.is-preload #wrapper {
   -ms-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   /* Set your background with this */
-/*
-  background: #348cb2 url("images/back.jpg") bottom left;
+
+  background: #348cb2 url("images/blackPolygons.jpg") bottom left;
   background-repeat: repeat-x;
   height: 100%;
   left: 0;
   opacity: 1;
   position: fixed;
   top: 0;
-}*/
+}
 
 @-moz-keyframes bg {
   0% {
